@@ -1,0 +1,243 @@
+databaseHost: localhost
+databasePort: 3306
+databaseName: minecraft
+databaseUsername: root
+databasePassword: password
+
+startPosition:
+  ==: org.bukkit.Location
+  world: world
+  x: 0.0
+  y: 70.0
+  z: 0.0
+  pitch: 0.0
+  yaw: 0.0
+
+secondsBetweenSpawns: 10
+difficultyIncreaseTime: 60
+spawnRadius: 15
+
+difficulties:
+  1:
+    mobsSpawned: 1
+    mobs:
+      1:
+        type: ZOMBIE
+        customName: Zombie
+        equipment:
+          helmet:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: LEATHER_HELMET
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Zombie Helmet
+              lore:
+                - Zombie Helmet
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+          chestplate:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: LEATHER_CHESTPLATE
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Zombie Chestplate
+              lore:
+                - Zombie Chestplate
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+          leggings:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: LEATHER_LEGGINGS
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Zombie Leggings
+              lore:
+                - Zombie Leggings
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+          boots:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: LEATHER_BOOTS
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Zombie Boots
+              lore:
+                - Zombie Boots
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+          hand:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: WOODEN_SWORD
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Zombie Sword
+              lore:
+                - Zombie Sword
+              enchants:
+                DAMAGE_ALL: 1
+                KNOCKBACK: 1
+          offHand:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: AIR
+  2:
+    mobsSpawned: 1
+    mobs:
+      1:
+        type: SKELETON
+        customName: Skeleton
+        equipment:
+          helmet:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: LEATHER_HELMET
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Skeleton Helmet
+              lore:
+                - Skeleton Helmet
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+          chestplate:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: LEATHER_CHESTPLATE
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Skeleton Chestplate
+              lore:
+                - Skeleton Chestplate
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+          leggings:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: LEATHER_LEGGINGS
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Skeleton Leggings
+              lore:
+                - Skeleton Leggings
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+          boots:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: LEATHER_BOOTS
+            amount: 1
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: Skeleton Boots
+              lore:
+                - Skeleton Boots
+              enchants:
+                PROTECTION_ENVIRONMENTAL: 1
+          hand:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2975
+            type: BOW
+            amount: 1
+      2:
+        type: SPIDER
+        customName: Spider
+
+
+kit:
+  0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_SWORD
+  1: null
+  2: null
+  3: null
+  4: null
+  5: null
+  6: null
+  7: null
+  8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLDEN_APPLE
+    amount: 64
+  9: null
+  10: null
+  11: null
+  12: null
+  13: null
+  14: null
+  15: null
+  16: null
+  17: null
+  18: null
+  19: null
+  20: null
+  21: null
+  22: null
+  23: null
+  24: null
+  25: null
+  26: null
+  27: null
+  28: null
+  29: null
+  30: null
+  31: null
+  32: null
+  33: null
+  34: null
+  35: null
+  36:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 4
+  37:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 4
+  38:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 4
+  39:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 4
+  40: null

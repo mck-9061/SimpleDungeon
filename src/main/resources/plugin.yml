@@ -1,0 +1,27 @@
+name: SimpleDungeon
+version: 1.0
+author: mck
+api-version: 1.13
+main: me.mckdev.SimpleDungeon.Main
+commands:
+  start:
+    description: Start the dungeon
+    usage: /start
+    permission: simpledungeon.start
+  leave:
+    description: Leave the dungeon
+    usage: /leave
+    permission: simpledungeon.leave
+  stats:
+    description: View your dungeon stats
+    usage: /stats
+    permission: simpledungeon.stats
+  setstart:
+    description: Set the dungeon start location
+    usage: /setstart
+    permission: simpledungeon.setstart
+  setkit:
+    description: Set the dungeon kit
+    usage: /setkit
+    permission: simpledungeon.setkit
+
